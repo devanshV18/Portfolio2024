@@ -14,33 +14,13 @@ function About() {
     <ContactWrapper id="about">
       <div className="Container">
         <div className="SectionTitle">About Me</div>
-        <div className="BigCard">
+
         <ScrollAnimation animateIn="fadeInLeft">
-          <Image
-            src="/man-svgrepo-com.svg"
-            alt="man-svgrepo"
-          />
-        </ScrollAnimation>
-          <div className="AboutBio">
-            <ScrollAnimation animateIn="fadeInLeft">
-            Hello! My name is <strong>Pedro Muniz</strong>. I'm originally from Brazil and have been living in Canada for the past three years. During my time here, I gained valuable experience through various entry-level positions, which greatly enhanced my work ethic, communication skills, and adaptability.
-            </ScrollAnimation>
-
-            <br /><br />
-            
-            <ScrollAnimation animateIn="fadeInLeft">
-            My journey into the world of technology began with a strong passion for problem-solving, which led me to pursue the Computer Systems Technology program. Despite its challenges, I remained determined and forged lasting friendships that supported me throughout this demanding program.
-            Throughout my studies at BCIT, I had the opportunity to engage in fascinating projects. Notably, I contributed to the development of the RENR Safety App and MyMind, projects that garnered recognition from my colleagues, instructors, and clients alike.
-            </ScrollAnimation>
-
-            <br /><br />
-
-            <ScrollAnimation animateIn="fadeInLeft">
-              Working collaboratively within a team towards a shared objective has been an incredibly rewarding and unique experience for me. I am eager to continue exploring exciting projects in the future, with a particular interest in web development and cross-platform mobile development.
               <div className="tagline2">
-                I have become confident using the following technologies:
+                <strong>I have an expertise in the following technologies:-</strong>
               </div>
             </ScrollAnimation>
+            <br /><br />
             
 
             <Technologies>
@@ -53,6 +33,29 @@ function About() {
                 </ScrollAnimation>
               ))}
             </Technologies>
+
+            <br /><br />
+
+            
+        <div className="BigCard">
+        <ScrollAnimation animateIn="fadeInLeft">
+          <Image
+            src="/male-programmer-svgrepo-com.svg"
+            alt="man-svgrepo"
+          />
+        </ScrollAnimation>
+          <div className="AboutBio">
+            <ScrollAnimation animateIn="fadeInLeft">
+            Hello! My name is <strong>Devansh Verma</strong>. I'm from India and a full stack developer. I am curently in my final year of Computer Science and Engineering at SRMIST, Chennai. I've also worked as as a <strong>Web Developer</strong> with the technical fest team of my college. I love to explore new technologies, tools and build web and mobile applications carrying an impact.
+            </ScrollAnimation>
+
+            <br /><br />
+            
+            <ScrollAnimation animateIn="fadeInLeft">
+            My journey into the world of technology began with a strong passion for problem-solving, which led me to pursue the Computer Systems Technology program where i've gained strong understanding and knowledge of core Computer Science subjects such as <strong>Data Structures, OOPS, DBMS and SQL,</strong> Despite its challenges, I am determined and forged lasting friendships that supported me throughout this demanding program till date.
+            Throughout my studies at SRMIST, I had the opportunity to engage in fascinating personal and collaborative projects some of which are mentioned above and also provided me with an environment where i was able to learn full stack development and implement them into real life problems and use cases.
+            </ScrollAnimation>
+
           </div>
 
         </div>
